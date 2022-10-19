@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: sort_ros
+Description: Description of sort_ros
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsort_core_lib
+Requires: cmake_modules roscpp rosbag tf std_msgs geometry_msgs sensor_msgs nav_msgs visualization_msgs cv_bridge darknet_ros_msgs nodelet image_transport

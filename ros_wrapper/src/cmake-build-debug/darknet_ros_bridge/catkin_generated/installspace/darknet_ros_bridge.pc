@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: darknet_ros_bridge
+Description: Description of darknet_ros_bridge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

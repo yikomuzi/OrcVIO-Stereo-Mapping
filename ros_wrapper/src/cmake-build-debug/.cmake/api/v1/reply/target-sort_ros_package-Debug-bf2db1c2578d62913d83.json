@@ -1,0 +1,138 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"catkin_simple",
+			"add_dependencies",
+			"cs_add_targets_to_package",
+			"cs_add_library",
+			"cs_add_executable"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake",
+			"sort_ros/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 13
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "sort_core_lib::@7b88bf5e6409a72d3681"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "sort_ros::@7b88bf5e6409a72d3681"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "test_kf::@7b88bf5e6409a72d3681"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "sort_ros_node::@7b88bf5e6409a72d3681"
+		}
+	],
+	"id" : "sort_ros_package::@7b88bf5e6409a72d3681",
+	"name" : "sort_ros_package",
+	"paths" : 
+	{
+		"build" : "sort_ros",
+		"source" : "sort_ros"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: wm_od_interface_msgs
+Description: Description of wm_od_interface_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

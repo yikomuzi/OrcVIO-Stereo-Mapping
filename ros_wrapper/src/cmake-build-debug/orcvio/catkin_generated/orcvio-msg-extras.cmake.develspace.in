@@ -1,0 +1,2 @@
+set(orcvio_MESSAGE_FILES "/home/ubuntu/Desktop/OrcVIO-Stereo-Mapping_study/OrcVIO-Stereo-Mapping/ros_wrapper/src/orcvio/msg/FeatureMeasurement.msg;/home/ubuntu/Desktop/OrcVIO-Stereo-Mapping_study/OrcVIO-Stereo-Mapping/ros_wrapper/src/orcvio/msg/CameraMeasurement.msg;/home/ubuntu/Desktop/OrcVIO-Stereo-Mapping_study/OrcVIO-Stereo-Mapping/ros_wrapper/src/orcvio/msg/TrackingInfo.msg")
+set(orcvio_SERVICE_FILES "")
